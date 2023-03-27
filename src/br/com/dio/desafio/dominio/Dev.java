@@ -27,10 +27,10 @@ public class Dev {
 		}
 	}
 	
-	public void calcularXP() {
-		this.conteudoInscritos.stream()
-		.mapToDouble(conteudo -> conteudo.calcularXP())
-		.sum() ; 
+	public double calcularTotalXP() {
+		return this.conteudosConcluidos.stream()
+		.mapToDouble(Conteudo::calcularXP)
+		.sum(); 
 	}
 
 	public String getNome() {
