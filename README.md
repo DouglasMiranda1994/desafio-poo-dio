@@ -1,3 +1,3 @@
 # desafio-poo-dio
 
-Bootcamp Orange Tech + backende - Banco Inter
+Bootcamp Orange Tech + backend - Banco Inter
